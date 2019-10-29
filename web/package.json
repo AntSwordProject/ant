@@ -9,7 +9,7 @@
     "jade": "^1.11.0",
     "lib-qqwry": "^0.0.5",
     "express-session": "^1.13.0",
-    "mongoose": "^3.9.7",
+    "mongoose": "^5.7.7",
     "qiniu": "^6.1.9",
     "morgan": "^1.7.0",
     "nodemailer-smtp-transport": "^1.1.0",
