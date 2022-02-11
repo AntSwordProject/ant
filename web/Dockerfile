@@ -11,7 +11,7 @@ COPY . /htdocs/
 WORKDIR /htdocs/
 
 RUN set -ex; \
-  npm --registry=https://registry.npm.taobao.org install
+  npm --registry=https://registry.npmmirror.com install
 
 ENV PORT=3000 \
   ANT_MONGO_URI=mongodb://127.0.0.1/ant \
